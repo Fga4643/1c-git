@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f82c5bde-f0e9-4227-a1b7-2723bdb0d39e">
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ffb23c0-d7e6-421b-bab6-a9ea937d46f8">
   <producedTypes>
-    <objectType typeId="0ee75607-3b68-4e0b-b480-70f34ab2f6b8" valueTypeId="f5395c36-6223-404f-8248-1054c2118538"/>
-    <refType typeId="a9f78066-0ae7-4605-901d-d7f0039e4580" valueTypeId="b5252a73-a5ae-486e-871c-bc091a0024c8"/>
-    <selectionType typeId="bd2dd586-04a0-43d3-91d5-42618acac4bc" valueTypeId="ebcea128-93d9-414d-8154-52be8bac1184"/>
-    <listType typeId="c3ae677d-0ccc-4549-8c8d-d1bbf6991710" valueTypeId="9c3997df-0e55-4817-9559-b4502c566a26"/>
-    <managerType typeId="975dabcc-1595-45e0-8c22-4957bcd2e338" valueTypeId="9169bcce-612b-47a5-933c-2f7776d61a20"/>
-    <containerType typeId="2b8c851d-7919-4363-ad2e-1ff8da421f90" valueTypeId="b8e9d728-90e5-4c9f-9cf1-58cf69ef7349"/>
+    <objectType typeId="800e2a93-ad57-4551-9e55-d78661839e25" valueTypeId="9ed1a536-8ec2-447c-9a87-43eb35a09f34"/>
+    <refType typeId="140d3de5-0198-49fc-bf9e-c4d8ea21ec4a" valueTypeId="27f351f6-9326-42a3-8b9c-e1bf091c55e6"/>
+    <selectionType typeId="7a834ce2-1739-4e37-83f1-e96f212d9f09" valueTypeId="849a2e65-3dd1-48f0-b02e-e52ffeef58af"/>
+    <listType typeId="72356bab-3b3f-4be6-bf97-590bf4d5231f" valueTypeId="6f1f36de-02fa-4de9-a990-3ec484fb7356"/>
+    <managerType typeId="bf9b1d39-e003-4e8e-bf05-77178936cc3c" valueTypeId="a850ca39-9b67-404b-b02d-490744303db8"/>
+    <containerType typeId="3d7791c7-114a-4b40-a73b-6e94357cbfcd" valueTypeId="4e6095b4-e797-491a-924c-c3ecb0a76255"/>
   </producedTypes>
   <name>ВидыСубконто</name>
   <synonym>
@@ -20,6 +20,7 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.Субконто</characteristicExtValues>
   <type>
     <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.Номенклатура</types>
@@ -33,20 +34,20 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
-    <items id="7d27c0f6-2ddd-4394-8310-d40d698fbb2a">
-      <name>Клиенты</name>
-      <description>Клиенты</description>
-      <code>000000002</code>
-      <type>
-        <types>CatalogRef.Клиенты</types>
-      </type>
-    </items>
-    <items id="b61a97c6-d45e-4d02-a143-69134c71ab83">
+    <items id="0c3ceba8-0bd1-4e97-bc01-7c71aaa2cfe3">
       <name>Материалы</name>
       <description>Материалы</description>
       <code>000000001</code>
       <type>
         <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="8ca12553-6fd6-48a3-8acf-43db008f6fab">
+      <name>Клиенты</name>
+      <description>Клиенты</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Клиенты</types>
       </type>
     </items>
   </predefined>

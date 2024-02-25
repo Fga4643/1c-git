@@ -7,5 +7,27 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>CalculationRegister.Начисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.НачисленияСотрудникам.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CalculationRegister.Начисления.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВидыГрафиковРаботы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

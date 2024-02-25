@@ -295,5 +295,6 @@
     <width>1</width>
     <style>Solid</style>
   </linksLine>
+  <showPointsText>Show</showPointsText>
   <predefinedLogFormTableVisible>true</predefinedLogFormTableVisible>
 </ganttchart:GanttChart>

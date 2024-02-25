@@ -14,13 +14,13 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</command>
+      <command>Document.ОказаниеУслуги.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ОказаниеУслуг.StandardCommand.Create</command>
+      <command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -31,5 +31,27 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

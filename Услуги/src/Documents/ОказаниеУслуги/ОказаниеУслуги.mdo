@@ -31,6 +31,7 @@
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="4d326654-8943-4489-b1bf-00a1a161bd94">

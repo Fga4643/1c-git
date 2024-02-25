@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d5ce084-118c-49e6-9f7e-f783b896d7bf">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="342fb8b0-f128-4b2d-83ef-81de7913d7eb">
   <producedTypes>
-    <objectType typeId="92ac666a-431b-4f18-bfb4-1d582b74dbaa" valueTypeId="62d85fd0-0553-4d21-a9fe-e20cd174878d"/>
-    <refType typeId="35ddbcc2-1493-4f30-9561-3551a93927ed" valueTypeId="a8920d0c-f4ce-4668-874c-ff0376ff6830"/>
-    <selectionType typeId="976fe1ab-87f5-4a43-9489-87fd3ec6e9bd" valueTypeId="2cbf00fb-f39d-4f67-a6ea-bff9379d6b6a"/>
-    <listType typeId="31e3b418-df8f-4381-be03-5cc9582e622c" valueTypeId="29b66aad-3852-4fe8-bb8d-e5beaf07d53f"/>
-    <managerType typeId="d4c282bc-c90e-414b-86f1-066261855df1" valueTypeId="751f281f-0055-4140-81b3-92d9008832c2"/>
+    <objectType typeId="2ec1fdd4-bbe0-4461-84b3-cd71c6b70080" valueTypeId="12b94ff9-b5b5-4037-bbd4-76368d2cbfc7"/>
+    <refType typeId="3874108b-220d-44ce-bc0c-ebcd3e7b67de" valueTypeId="fc6e6663-3324-472d-baff-9abad216933e"/>
+    <selectionType typeId="58bf31be-eb43-4382-9425-23fe8fb50b32" valueTypeId="a7a5027e-d5d5-4f09-8466-94d94f0b16c3"/>
+    <listType typeId="fbd18d0a-c210-482d-bacf-bbfa8991d00a" valueTypeId="f1e75728-340b-4c20-aac2-29d929ae72b2"/>
+    <managerType typeId="8fb45f01-66e3-46ff-a909-db0c4e7b60b0" valueTypeId="c51317ad-f573-4950-8e61-b569202ee705"/>
   </producedTypes>
   <name>Субконто</name>
   <synonym>

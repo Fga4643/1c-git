@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83dc1163-7e2b-481d-b9ee-8eb59ab9b617">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a808d185-b3bc-4a78-949c-2e5619d22f5f">
   <producedTypes>
-    <objectType typeId="540d4ad6-6937-4a96-9194-afc75fff433c" valueTypeId="653ed012-1bce-4f81-880c-00e21613268b"/>
-    <managerType typeId="7a8e6ebf-6a0a-44b0-95a4-25036d539c9c" valueTypeId="bdbcf05f-8db9-43dd-b7ed-0ac07a9656ab"/>
+    <objectType typeId="9b6e2347-da55-4b18-8bc3-4a52e8251b99" valueTypeId="918316a2-0cfc-469f-880c-3a1d8117ed76"/>
+    <managerType typeId="e1e8693d-4f9d-4fb7-8302-3601898a485c" valueTypeId="d7133cc6-f841-40a2-8b39-166273edaff5"/>
   </producedTypes>
   <name>ДиаграммаНачислений</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ДиаграммаНачислений.Form.ФормаОтчета</defaultForm>
-  <forms uuid="0770c5e8-7ae7-4219-8b29-3a5f59339793">
+  <forms uuid="2c0c68eb-14e7-450d-95d1-0df78bc059f8">
     <name>ФормаОтчета</name>
     <synonym>
       <key>ru</key>

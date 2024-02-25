@@ -49,6 +49,7 @@
   <commonPictures>CommonPicture.Материалы</commonPictures>
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Услуги</commonPictures>
+  <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
@@ -70,13 +71,14 @@
   <reports>Report.НачисленияСотрудникам</reports>
   <reports>Report.ОборотноСальдоваяВедомость</reports>
   <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
+  <reports>Report.Перерасчет</reports>
   <reports>Report.ПереченьУслуг</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
-  <informationRegisters>InformationRegister.ГрафикРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>

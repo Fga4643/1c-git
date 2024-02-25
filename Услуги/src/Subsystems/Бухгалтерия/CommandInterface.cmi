@@ -8,13 +8,19 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</command>
+      <command>AccountingRegister.Управленческий.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -26,6 +32,7 @@
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -34,6 +41,7 @@
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+      <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

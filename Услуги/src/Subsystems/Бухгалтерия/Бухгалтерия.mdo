@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd072f86-091b-4540-b4fd-1b1be78febb8">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a28208e2-d9a3-46b6-8adb-d5dd282874c8">
   <name>Бухгалтерия</name>
   <synonym>
     <key>ru</key>
@@ -8,14 +8,24 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.Debit</picture>
+    <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
+  <content>Catalog.Клиенты</content>
   <content>Catalog.Номенклатура</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.ОказаниеУслуги</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
   <content>InformationRegister.Цены</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>Report.РейтингУслуг</content>
   <content>Report.ПереченьУслуг</content>
   <content>Report.РейтингКлиентов</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Основной</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.НачисленияСотрудникам</content>
 </mdclass:Subsystem>

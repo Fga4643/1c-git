@@ -100,10 +100,10 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
 				<dcsset:selection>
-					<dcsset:userSettingID>156e6b54-a20a-406d-b2ed-8b487e1a4bda</dcsset:userSettingID>
+					<dcsset:userSettingID>6b4b7c45-27f9-49a4-bbc6-0676e47e06fc</dcsset:userSettingID>
 				</dcsset:selection>
-				<dcsset:columnsUserSettingID>e1847990-5e8a-4851-831a-78c7c62a0f11</dcsset:columnsUserSettingID>
-				<dcsset:rowsUserSettingID>fce6112e-a560-43be-876b-c64387a07d0b</dcsset:rowsUserSettingID>
+				<dcsset:columnsUserSettingID>ccd4ff1c-5acb-47ec-b635-193bda31b996</dcsset:columnsUserSettingID>
+				<dcsset:rowsUserSettingID>8d72bd50-7223-4033-b757-8e7440a09dd9</dcsset:rowsUserSettingID>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>

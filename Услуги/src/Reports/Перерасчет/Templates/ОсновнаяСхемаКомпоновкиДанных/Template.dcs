@@ -7,38 +7,24 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Склад</dataPath>
-			<field>Склад</field>
+			<dataPath>ВидРасчета</dataPath>
+			<field>ВидРасчета</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Мастер</dataPath>
-			<field>Мастер</field>
+			<dataPath>ОбъектПерерасчета</dataPath>
+			<field>ОбъектПерерасчета</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Документ</dataPath>
-			<field>Документ</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документ</v8:content>
-				</v8:item>
-			</title>
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОказаниеУслуги.Склад,
-	ОказаниеУслуги.Мастер,
-	ОказаниеУслуги.Клиент,
-	ОказаниеУслуги.Ссылка КАК Документ
+	НачисленияПерерасчет.ВидРасчета,
+	НачисленияПерерасчет.ОбъектПерерасчета,
+	НачисленияПерерасчет.Сотрудник
 ИЗ
-	Документ.ОказаниеУслуги КАК ОказаниеУслуги
-
-УПОРЯДОЧИТЬ ПО
-	ОказаниеУслуги.Номер</query>
+	РегистрРасчета.Начисления.Перерасчет КАК НачисленияПерерасчет</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -46,16 +32,13 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Документ</dcsset:field>
+					<dcsset:field>ОбъектПерерасчета</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Склад</dcsset:field>
+					<dcsset:field>ВидРасчета</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Мастер</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Клиент</dcsset:field>
+					<dcsset:field>Сотрудник</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bbc90d6-9dec-488e-9c80-541dbf22a2b4">
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c99c6ccc-6870-4972-b07a-9729ee5aae19">
   <producedTypes>
-    <selectionType typeId="7dbf8cf6-fbaa-4212-8b3b-fccbadec85dc" valueTypeId="3eadddb6-b4b2-4315-97f3-2ff9efe0a0df"/>
-    <listType typeId="7e381550-2d36-42e1-b17a-24a62378810d" valueTypeId="c6d329d5-e635-4e0d-b212-b74cc5604f5c"/>
-    <managerType typeId="0285b4a8-d2b7-4914-b59b-1bbcf06f2cbb" valueTypeId="b94eb87d-8335-422c-ba64-d97d981b6978"/>
-    <recordSetType typeId="3920c92f-be1a-48db-b177-92c4e1209098" valueTypeId="bb04be2a-1683-4ed2-9073-f9929dd703c4"/>
-    <recordKeyType typeId="bfce388d-1d3d-4234-9188-f131d9b3363c" valueTypeId="da604cca-7572-4563-bebc-9e2425f1af27"/>
-    <recordType typeId="1fa10493-e7f3-4770-b816-0a1cc7c734cd" valueTypeId="8ae8e922-05b7-4e45-a461-557be94bf086"/>
-    <extDimensionsType typeId="abe9e36b-d4df-4c5d-b771-cd108ac64bfb" valueTypeId="098e19f9-f005-4046-9dc2-4bd9f7ea36a5"/>
+    <selectionType typeId="67fcf1b2-d1bc-4779-b07d-6a2665ac8862" valueTypeId="a0e3c892-d28f-463c-9c3b-ef004b23c0b7"/>
+    <listType typeId="6c69e18c-d8ec-4df6-a955-8ffcdcb3fe5e" valueTypeId="ca3710c4-5a9b-4f43-b574-254a493cdb70"/>
+    <managerType typeId="414f68ee-7fdd-448f-bf32-292638445413" valueTypeId="702e4b35-4b90-4e53-9140-aba538f7af28"/>
+    <recordSetType typeId="d9356bb1-56fe-4c6e-96c7-973d2d29f00d" valueTypeId="af0eed86-686a-4e2c-ac23-1fe538a06b25"/>
+    <recordKeyType typeId="4d963f06-bb42-4d82-8916-5ddbd2f4305c" valueTypeId="d3371a8a-1ec4-4c05-9187-202145c3959c"/>
+    <recordType typeId="0b20f844-923e-4458-9631-f8daeb20d67d" valueTypeId="0f3a00ce-5caf-4270-9282-16504869c6d1"/>
+    <extDimensionsType typeId="29a45b4c-f674-443b-a6c9-c4ff81eacf56" valueTypeId="e6923a68-d4d4-4f19-b1b1-1385a3e0231b"/>
   </producedTypes>
   <name>Управленческий</name>
   <synonym>
@@ -16,13 +16,14 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <chartOfAccounts>ChartOfAccounts.Основной</chartOfAccounts>
+  <correspondence>true</correspondence>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Движение в регистре Управленческий</value>
+    <value>Движения в регистре Управленческий</value>
   </extendedListPresentation>
-  <resources uuid="b7511da4-ad5e-4774-98e4-f45f0aeb1636">
+  <resources uuid="65de6625-9916-4a1b-81c5-0beed0be3804">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -40,7 +41,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <balance>true</balance>
   </resources>
-  <resources uuid="68c5bd2d-0ed2-4ef9-bd36-f8856b2228ae">
+  <resources uuid="0dcea6d7-9774-4da6-ab61-7a8c915b3116">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -57,5 +58,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <accountingFlag>ChartOfAccounts.Основной.AccountingFlag.Количественный</accountingFlag>
+    <extDimensionAccountingFlag>ChartOfAccounts.Основной.ExtDimensionAccountingFlag.Количественный</extDimensionAccountingFlag>
   </resources>
 </mdclass:AccountingRegister>

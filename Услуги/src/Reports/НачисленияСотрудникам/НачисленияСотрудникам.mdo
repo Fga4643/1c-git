@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa7c386c-8a40-4683-bcc2-064134e6ccf4">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79f32828-67a3-401f-80f2-ddbdaf38262b">
   <producedTypes>
-    <objectType typeId="ab00d1f5-c6c8-44e6-afc9-0458b9f4b5a5" valueTypeId="ffa2c773-e6cb-4203-86a3-809f46eab912"/>
-    <managerType typeId="8109d671-1b4a-44bb-9650-5dcc6ca89a8f" valueTypeId="5b2455cc-3540-4398-bb59-b9710fc7ca28"/>
+    <objectType typeId="aa9a7777-f5b1-4a3f-889c-8c74dd262483" valueTypeId="6088a781-454e-4854-b117-d29f9ae3029f"/>
+    <managerType typeId="88ebd42d-9198-49f6-bab1-e208a95faaf9" valueTypeId="30206e0c-6779-4c6b-96a8-5b8ff4116dbf"/>
   </producedTypes>
   <name>НачисленияСотрудникам</name>
   <synonym>
@@ -12,7 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.НачисленияСотрудникам.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.НачисленияСотрудникам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <forms uuid="79c663bf-5397-4e57-a46d-c33913a55ec4">
+  <forms uuid="cf80e80f-eaeb-4e4d-a278-5f57f9fde485">
     <name>ФормаОтчета</name>
     <synonym>
       <key>ru</key>
@@ -21,7 +21,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="6f2b9a73-c82e-4820-b981-23d8ae932362">
+  <templates uuid="2670f1d1-8684-48f2-aac9-d2144811fd93">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

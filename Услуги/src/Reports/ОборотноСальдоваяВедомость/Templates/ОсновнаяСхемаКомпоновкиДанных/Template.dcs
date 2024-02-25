@@ -27,7 +27,7 @@
 			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName/>
+				<dcscom:balanceGroupName>Сальдо</dcscom:balanceGroupName>
 				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
 			</role>
 		</field>
@@ -42,7 +42,7 @@
 			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName/>
+				<dcscom:balanceGroupName>Сальдо2</dcscom:balanceGroupName>
 				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
 			</role>
 		</field>
@@ -77,9 +77,8 @@
 			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName/>
-				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
-				<dcscom:accountingBalanceType>Debit</dcscom:accountingBalanceType>
+				<dcscom:balanceGroupName>Сальдо</dcscom:balanceGroupName>
+				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -93,9 +92,8 @@
 			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName/>
-				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
-				<dcscom:accountingBalanceType>Credit</dcscom:accountingBalanceType>
+				<dcscom:balanceGroupName>Сальдо2</dcscom:balanceGroupName>
+				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -113,8 +111,8 @@
 	УправленческийОстаткиИОбороты.СуммаНачальныйРазвернутыйОстатокКт КАК СальдоНачКт,
 	УправленческийОстаткиИОбороты.СуммаОборотДт КАК ОборотДт,
 	УправленческийОстаткиИОбороты.СуммаОборотКт КАК ОборотКт,
-	УправленческийОстаткиИОбороты.СуммаНачальныйОстатокДт КАК СальдоКонДт,
-	УправленческийОстаткиИОбороты.СуммаНачальныйОстатокКт КАК СальдоКонКт
+	УправленческийОстаткиИОбороты.СуммаКонечныйРазвернутыйОстатокДт КАК СальдоКонДт,
+	УправленческийОстаткиИОбороты.СуммаКонечныйРазвернутыйОстатокКт КАК СальдоКонКт
 ИЗ
 	ПланСчетов.Основной КАК Основной
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрБухгалтерии.Управленческий.ОстаткиИОбороты КАК УправленческийОстаткиИОбороты
@@ -179,7 +177,7 @@
 		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
-		<name>Период</name>
+		<name>Период	</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -223,6 +221,30 @@
 					<dcsset:field>СальдоКонКт</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>[Период	]</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>42b89665-28d7-4a05-8657-dbdbd769340d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оборотно-сальдовая ведомость</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">BeginAndEnd</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
