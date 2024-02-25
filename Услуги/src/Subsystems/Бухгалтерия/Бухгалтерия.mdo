@@ -11,4 +11,5 @@
     <picture>StdPicture.Debit</picture>
   </picture>
   <content>Catalog.Номенклатура</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
 </mdclass:Subsystem>

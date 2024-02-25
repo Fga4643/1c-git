@@ -13,4 +13,6 @@
   <content>Catalog.Клиенты</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Склады</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>Document.ОказаниеУслуг</content>
 </mdclass:Subsystem>

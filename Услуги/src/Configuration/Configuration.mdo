@@ -50,5 +50,7 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ОказаниеУслуг</documents>
   <documents>Document.ПриходнаяНакладная</documents>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
 </mdclass:Configuration>
