@@ -15,4 +15,5 @@
   <content>Document.ПриходнаяНакладная</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>InformationRegister.Цены</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
 </mdclass:Subsystem>
