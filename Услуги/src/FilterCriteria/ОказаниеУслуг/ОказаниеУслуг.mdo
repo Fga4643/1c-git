@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d831bb1b-960a-4a77-aa7d-9042f3c10994">
+  <producedTypes>
+    <listType typeId="3ad528ee-3dae-4b97-93cc-14b1bb4c3ff5" valueTypeId="7ce15027-d852-474a-a072-2ea1141263ca"/>
+    <managerType typeId="ad324623-16f6-45ad-a507-9a2d4631c317" valueTypeId="7738d5e0-5339-4e3b-8d11-3686ef343014"/>
+  </producedTypes>
+  <name>ОказаниеУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оказание услуг</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Клиенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ОказаниеУслуги.Attribute.ОбъектОснование</content>
+  <defaultForm>FilterCriterion.ОказаниеУслуг.Form.ФормаСписка</defaultForm>
+  <forms uuid="992133d7-1d76-4f93-8727-9a35d30a7b65">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>
