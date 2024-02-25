@@ -15,4 +15,5 @@
   <content>Catalog.Склады</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Document.ОказаниеУслуг</content>
+  <content>InformationRegister.Цены</content>
 </mdclass:Subsystem>

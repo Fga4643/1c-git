@@ -46,6 +46,7 @@
   <subsystems>Subsystem.Расчетзарплаты</subsystems>
   <subsystems>Subsystem.Учетматериалов</subsystems>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -54,5 +55,6 @@
   <documents>Document.ОказаниеУслуг</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Материалы</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
 </mdclass:Configuration>
