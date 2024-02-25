@@ -97,6 +97,33 @@
         </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбменСОтделениями.StandardCommand.Open</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбменДанными.StandardCommand.Open</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm.ОбщиеНастройки.StandardCommand.Open</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -105,6 +132,8 @@
       <commands>Document.ОказаниеУслуги.StandardCommand.Create</commands>
       <commands>Document.НачисленияСотрудникам.StandardCommand.Create</commands>
       <commands>Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.Create</commands>
+      <commands>ExchangePlan.Филиалы.StandardCommand.Create</commands>
+      <commands>ExchangePlan.Отделения.StandardCommand.Create</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelReports</group>
@@ -112,6 +141,17 @@
       <commands>Report.Материалы.StandardCommand.Open</commands>
       <commands>Report.НачисленияСотрудникам.StandardCommand.Open</commands>
       <commands>Report.ОборотноСальдоваяВедомость.StandardCommand.Open</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ОбменСОтделениями.StandardCommand.Open</commands>
+      <commands>DataProcessor.ОбменДанными.StandardCommand.Open</commands>
+      <commands>CommonForm.ОбщиеНастройки.StandardCommand.Open</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>ExchangePlan.Отделения.StandardCommand.OpenList</commands>
+      <commands>ExchangePlan.Филиалы.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
 </cmi:CommandInterface>

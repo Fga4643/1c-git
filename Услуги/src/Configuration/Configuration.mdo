@@ -55,12 +55,17 @@
   <roles>Role.Мастер</roles>
   <roles>Role.Расчетчик</roles>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
+  <commonModules>CommonModule.Обмен</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <exchangePlans>ExchangePlan.Отделения</exchangePlans>
+  <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
+  <constants>Constant.ПрефиксНумерации</constants>
+  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
@@ -86,6 +91,8 @@
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменСОтделениями</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
