@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a5b5566-499d-477f-b3c4-f8d7235dc4ed">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="177ffce1-2c97-43ae-9f09-73611e3ce4ae">
   <producedTypes>
-    <selectionType typeId="695544c4-770b-4c67-b78f-64d68eb7e89f" valueTypeId="e32e2da1-b662-449c-97c4-dbb106d8e13d"/>
-    <listType typeId="98363afe-b2a3-401e-ac54-22bca5ee5138" valueTypeId="0710180a-9d41-4868-a189-d29d94682b75"/>
-    <managerType typeId="7024e32c-02c5-41e4-8b41-97f3e8dd9b45" valueTypeId="a3edbbac-5955-4e8d-a4cc-6030705a9f0b"/>
-    <recordSetType typeId="c94349c3-23a5-40fb-a965-dd8b9017ebe0" valueTypeId="df1ea9ed-36ad-4cf0-885d-7fbc3e0cb774"/>
-    <recordKeyType typeId="c9c6e91e-d47b-4a5d-aa81-968bad9e792c" valueTypeId="5417292c-b2b5-4e4c-acff-f690c96b439b"/>
-    <recordType typeId="5b64eb2e-068e-4e26-9b16-71538c2742f7" valueTypeId="8678d89c-3234-4e17-b12e-c27c69e3d420"/>
+    <selectionType typeId="2d8cb591-db10-4b1a-b849-637257734237" valueTypeId="b0d32165-090b-47db-933b-b9bc4650cb24"/>
+    <listType typeId="76ff7679-e9ec-4ec5-9421-8fdc235b999f" valueTypeId="513cb1be-5359-48d0-9d01-a9bceafc48ee"/>
+    <managerType typeId="26425363-13f3-4d16-9b95-35342618f59e" valueTypeId="2c0446b6-3202-439a-8215-e9114236977e"/>
+    <recordSetType typeId="a2a266fa-05aa-40a5-b9c7-a630ff074b46" valueTypeId="79f19732-211e-4a1f-bb66-1980c09571ba"/>
+    <recordKeyType typeId="1b79604f-b372-454c-b09d-9012e84bcb3c" valueTypeId="99ef3145-14d2-467c-9c76-865dae916d37"/>
+    <recordType typeId="305aa8d7-1817-4048-b7da-a33f18601ba1" valueTypeId="3726806e-e27a-47f7-916f-acca51ee8dd3"/>
   </producedTypes>
   <name>Продажи</name>
   <synonym>
@@ -21,7 +21,7 @@
     <key>ru</key>
     <value>Движения по регистру Продажи</value>
   </extendedListPresentation>
-  <resources uuid="3563c690-bbdd-401f-a3ad-60d614c5b251">
+  <resources uuid="ce75bff6-a8f8-4f4f-a165-4e61f7325a9c">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -38,7 +38,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="2bf24237-e0e4-4ba5-90e9-32d2feb487c0">
+  <resources uuid="144d3a5d-24bc-4e97-803d-46f3179c4723">
     <name>Выручка</name>
     <synonym>
       <key>ru</key>
@@ -55,7 +55,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="a854851c-f4eb-455c-a49a-634a55a76d56">
+  <resources uuid="d7115534-ae62-4756-a3e7-95c54b6bf2f9">
     <name>Стоимость</name>
     <synonym>
       <key>ru</key>
@@ -72,7 +72,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="7bd47470-a992-4206-8db5-cc19520e1c4e">
+  <dimensions uuid="602f0986-f50f-4a25-b10c-3da4111a36a3">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
@@ -86,7 +86,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="7092db1b-07c8-409f-b7b1-00c09876e47e">
+  <dimensions uuid="3e28b9c8-1d50-4114-baa3-4c3b91eca838">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -100,7 +100,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="031fa9f9-7ae6-40fb-a8b3-775ff46fc9d6">
+  <dimensions uuid="68693fa5-a91e-4707-b1a1-743581738ecb">
     <name>Мастер</name>
     <synonym>
       <key>ru</key>

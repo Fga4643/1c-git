@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c77d373-326a-4548-afa9-44a909a7d524">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b9eda9a-d250-44cd-a08c-675a9327f9f2">
   <producedTypes>
-    <selectionType typeId="8b416d25-827b-44df-a5af-35b48a6d00aa" valueTypeId="b2096771-fe93-4baa-836a-069de77b744f"/>
-    <listType typeId="b9b94e7a-f50e-4842-8424-efd5f5c04e18" valueTypeId="f425151e-5aa4-4ed2-aa78-89c1cb10b5fc"/>
-    <managerType typeId="926b5c1f-d972-4480-bff9-b9e20b009e41" valueTypeId="d1be11ee-46f0-44ae-a622-e5ee9005402b"/>
-    <recordSetType typeId="23bb5cdf-fa00-495f-9f9a-c6a3c78782d0" valueTypeId="7dc1ad94-6eee-4a46-b4b9-0900c65c7e3b"/>
-    <recordKeyType typeId="fa162c39-5542-4594-9a13-29de8f3da6e0" valueTypeId="949139bf-3812-4999-aa3d-fc5e2b23bc80"/>
-    <recordType typeId="20cd8b29-790b-4eff-80cc-c5e2811551a7" valueTypeId="566b15e3-d3db-489e-a183-3b1ca3d52bd9"/>
-    <recordManagerType typeId="1ae3520f-d8e4-459c-a70f-8992a8102d0b" valueTypeId="9ab8b0de-560f-45ce-b794-441fba0ce187"/>
+    <selectionType typeId="b0318b0f-9698-49d7-86c5-b3284173a30c" valueTypeId="5c79c038-dd50-43fc-919a-031628318539"/>
+    <listType typeId="825ecaaf-cf0c-495e-adc3-49fc89d974f5" valueTypeId="6d630e71-f2a5-4528-98c0-6a919b8f2b06"/>
+    <managerType typeId="7b23e32d-5c83-4d7e-8828-4f237023bc66" valueTypeId="8deac18d-ab2a-42c7-8533-b239bb02e419"/>
+    <recordSetType typeId="cd544839-3364-4510-ac72-1c8cc3702c2e" valueTypeId="e624ada1-691c-4de6-a9ad-e2a676b7c084"/>
+    <recordKeyType typeId="9e9dd496-def1-442f-b4c8-a8884a5a765c" valueTypeId="54feb361-e65a-40af-a3e6-0ac6e5ab0a9c"/>
+    <recordType typeId="043e24a4-d623-4569-9d83-0d37daa9f375" valueTypeId="ba75bcd7-56dd-4277-a9c9-6ec3137d87e2"/>
+    <recordManagerType typeId="7f22600e-047e-4353-8c0b-ef64439cb5fd" valueTypeId="b6dbd9ed-8c8c-44df-86f5-87fd068582bb"/>
   </producedTypes>
   <name>Цены</name>
   <synonym>
@@ -26,7 +26,7 @@
     <key>ru</key>
     <value>Цены на номенклатуру</value>
   </listPresentation>
-  <resources uuid="41960da0-d5f3-43d5-aafe-0c1b3e7d21e5">
+  <resources uuid="7f359198-7ae1-43f9-8967-4bc81de9891f">
     <name>Цена</name>
     <synonym>
       <key>ru</key>
@@ -46,14 +46,17 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="aae7013d-3a0f-4f0e-9e98-d58dc11af8d7">
+  <dimensions uuid="fa93b8e4-32c5-44d8-bbd5-827534f09b74">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
       <value>Номенклатура</value>
     </synonym>
     <type>
-      <types>CatalogRef.Номенклатура</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6548d0c2-4b68-4af3-a381-46ff8db51515">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64e7d5c6-b6a6-4aad-a967-07e8590edcd5">
   <producedTypes>
-    <objectType typeId="a9445366-6be1-4fbc-99a6-55ea8881eee3" valueTypeId="2592fc1d-3020-467b-9d47-eb7148da3f8b"/>
-    <managerType typeId="ddb29045-734e-4616-836c-1c69f17e5da2" valueTypeId="2c4b3065-71be-4ff4-a116-24c7f308bd12"/>
+    <objectType typeId="919d276d-b237-4282-896e-4e9d6d7e02c4" valueTypeId="743e9210-4518-4a25-a068-c5e7a3e97ba5"/>
+    <managerType typeId="4947b6dc-a4a1-46f3-a642-adfa03ea4cd3" valueTypeId="c681a25e-0ac6-4279-b4b8-b8e2cedb1be6"/>
   </producedTypes>
   <name>РейтингКлиентов</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.РейтингКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="842a2b9f-6f39-4a27-b32b-b8947d26a3f7">
+  <templates uuid="664bde14-3132-4179-b2fb-833f7e2603da">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

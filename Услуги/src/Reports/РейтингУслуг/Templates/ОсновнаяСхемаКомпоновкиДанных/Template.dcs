@@ -7,22 +7,22 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Услуга</dataPath>
-			<field>Услуга</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Услуга</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Выручка</dataPath>
 			<field>Выручка</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выручка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуга</dataPath>
+			<field>Услуга</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Услуга</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -40,8 +40,8 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	спрНоменклатура.Ссылка КАК Услуга,
-	ПродажиОбороты.ВыручкаОборот КАК Выручка
+	ПродажиОбороты.ВыручкаОборот КАК Выручка,
+	спрНоменклатура.Ссылка КАК Услуга
 ИЗ
 	Справочник.Номенклатура КАК спрНоменклатура
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты
@@ -119,33 +119,27 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfLastQuarter</v8:variant>
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>2024-01-06T20:00:11</v8:date>
 					</dcscor:value>
-					<dcsset:userSettingID>bee08e04-50bd-4d7a-b3ec-d1a13cdd786b</dcsset:userSettingID>
+					<dcsset:userSettingID>691f45a6-a0ea-4aff-a5a5-90a369350621</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfNextDay</v8:variant>
-					</dcscor:value>
-					<dcsset:userSettingID>2b28432d-3dc7-4b17-bbc0-95da6f9be650</dcsset:userSettingID>
+					<dcsset:userSettingID>b524d9c6-7c76-48c6-af44-cb34ac1dd08a</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Заголовок</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Рейтинг услуг</v8:content>
-						</v8:item>
-					</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
 				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:filter>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
-					<dcsset:userSettingID>4d31e948-3426-41cf-a7a3-7ac305c2dca5</dcsset:userSettingID>
+					<dcsset:userSettingID>5d7a543c-d229-42a2-b1ba-c4beda30353a</dcsset:userSettingID>
 				</dcsset:filter>
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
@@ -173,7 +167,7 @@
 						<dcsset:appearance>
 							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 								<dcscor:parameter>ЦветТекста</dcscor:parameter>
-								<dcscor:value xsi:type="v8ui:Color">web:Red</dcscor:value>
+								<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
 							</dcscor:item>
 						</dcsset:appearance>
 						<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -182,11 +176,10 @@
 								<v8:content>Непопулярная услуга</v8:content>
 							</v8:item>
 						</dcsset:presentation>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>d69d082b-e7e6-4374-8c4a-a6b53a374fb2</dcsset:userSettingID>
+						<dcsset:userSettingID>fa5d0530-4b5a-49f4-85f8-6da9045261a3</dcsset:userSettingID>
 					</dcsset:item>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
-					<dcsset:userSettingID>79df7312-5023-450d-be69-ca72e9d4d056</dcsset:userSettingID>
+					<dcsset:userSettingID>03fd958d-38b5-419b-b07d-60c3e680c90d</dcsset:userSettingID>
 				</dcsset:conditionalAppearance>
 			</dcsset:item>
 		</dcsset:settings>

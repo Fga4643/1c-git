@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0f5503b-e81b-4fcb-bddb-805bc6744ebf">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d8416d9-1079-4e7e-a662-3636a7404866">
   <producedTypes>
-    <objectType typeId="290e4a89-1c34-4535-94cd-07a9741d113b" valueTypeId="b9799f35-1c2a-4f63-a98c-80f04f685249"/>
-    <managerType typeId="634de214-3f8c-41dc-8cd7-2bfffdb650e5" valueTypeId="4754238a-c5a7-417a-b40a-0496bec11853"/>
+    <objectType typeId="a6b9fa42-45fe-4e09-bc18-e41e6b2c07ad" valueTypeId="18379a21-bec1-46bd-b0f0-e0dad0cf5f8e"/>
+    <managerType typeId="aafd41db-e680-45b2-92fd-c9715a259c13" valueTypeId="683371dd-e3db-4cdb-aa87-c873be02c47f"/>
   </producedTypes>
   <name>РейтингУслуг</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.РейтингУслуг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="9b5fcae7-9c91-470a-9836-b66fa2bee111">
+  <templates uuid="5a38571c-c972-4148-b9fa-6b133526cbbe">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

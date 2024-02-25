@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2648c75-1e0c-4673-b3b7-408311bbd116">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0534bf8e-85b9-449c-aa22-eb35223b1f8c">
   <producedTypes>
-    <objectType typeId="f2391d08-af65-48c9-8e26-236c9a528abc" valueTypeId="b9c9284e-f106-45a5-8dff-99b9b69d4fa1"/>
-    <managerType typeId="33a1ad72-d6c7-4699-a46b-4e5fb1704046" valueTypeId="dc634970-c237-4cb7-ab9b-71a750b82d49"/>
+    <objectType typeId="2554389d-aeba-4ab2-af79-032502c7c84d" valueTypeId="a795e704-69f9-459a-b5ac-43e844f2a349"/>
+    <managerType typeId="792d720a-a1fa-48bb-865e-31a347079e91" valueTypeId="9e5f2ce1-3187-4d42-8ee3-8cd77917d6e5"/>
   </producedTypes>
   <name>ПереченьУслуг</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ПереченьУслуг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="d1a8baa7-bb5c-49dc-b29e-06556de107f5">
+  <templates uuid="5329497b-216d-418e-9695-b458784b5af9">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

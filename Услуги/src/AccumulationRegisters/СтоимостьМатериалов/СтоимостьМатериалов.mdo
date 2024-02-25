@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e81d9d4-65fe-4fed-9228-3b49619bc244">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="913769f2-7006-41c7-a56d-2ddd705e79e5">
   <producedTypes>
-    <selectionType typeId="dab2050e-05bd-4f42-88b9-3f54a6608a6f" valueTypeId="d88764cb-f5ad-4bdf-9096-419d14082439"/>
-    <listType typeId="cc2d0d33-eb46-4b77-aef3-d4cb8fe03262" valueTypeId="8e266ed3-f34f-4e3c-82dc-ac756779ed12"/>
-    <managerType typeId="5a327137-0e45-436d-bf8d-0668b3c6ef01" valueTypeId="8185fb72-d482-48ef-ad88-1486d4d4f034"/>
-    <recordSetType typeId="27249e81-1e1f-4d06-8b07-ac0fac7d9927" valueTypeId="0106cdc2-c9ee-4d59-a9b2-fcf13176f908"/>
-    <recordKeyType typeId="46c48dfe-0125-4a62-a76f-a35cf6152bdc" valueTypeId="bb9de694-1424-4aa3-a146-1b9d3360c9cf"/>
-    <recordType typeId="7fe787f0-3e63-4aff-a901-39ff6fcc0446" valueTypeId="1c98ad5e-82a8-4b08-9586-3636b17192a2"/>
+    <selectionType typeId="eca402c5-fa2b-439f-af87-9d2d2b1c7000" valueTypeId="20874b7b-00aa-4c9a-ae5e-b9cb1651112c"/>
+    <listType typeId="79a9ad80-305c-4540-bd79-4fca6a82b358" valueTypeId="ab50397e-40aa-4acb-ac1a-4d3948bd1b94"/>
+    <managerType typeId="66072926-e80c-468f-94ea-8d752e535e4b" valueTypeId="3d3983d6-f4cc-487a-80a8-c387042982ec"/>
+    <recordSetType typeId="a33d0357-0735-4980-98b2-5c40f89842c2" valueTypeId="b6a97e02-eefb-4176-bd8b-7c538c7b4259"/>
+    <recordKeyType typeId="26900680-8088-4a6d-8d14-48f3baa0a4cd" valueTypeId="878ffcb0-ba49-418f-9905-cb828d9513d4"/>
+    <recordType typeId="de06ea88-c916-4f59-8c08-5c45ded4eaaa" valueTypeId="1e036400-23d8-437c-af94-06e53204f88e"/>
   </producedTypes>
   <name>СтоимостьМатериалов</name>
   <synonym>
@@ -18,9 +18,9 @@
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Движения по регистру Стоимость материалов</value>
+    <value>Движение по регистру Стоимость материалов</value>
   </extendedListPresentation>
-  <resources uuid="14f177d3-05d4-4117-a329-4deb05660949">
+  <resources uuid="77a80c5c-eba1-4a35-8628-9814877d00bd">
     <name>Стоимость</name>
     <synonym>
       <key>ru</key>
@@ -37,7 +37,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="14196f6b-701f-4ad7-aa02-8f0a18ffb511">
+  <dimensions uuid="74c9bbcb-49be-4d7f-b4d9-edad26c11b75">
     <name>Материал</name>
     <synonym>
       <key>ru</key>

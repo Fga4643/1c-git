@@ -11,12 +11,12 @@
 			<field>Склад</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Мастер</dataPath>
-			<field>Мастер</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Клиент</dataPath>
 			<field>Клиент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Мастер</dataPath>
+			<field>Мастер</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Документ</dataPath>
@@ -30,15 +30,15 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОказаниеУслуги.Склад,
-	ОказаниеУслуги.Мастер,
-	ОказаниеУслуги.Клиент,
-	ОказаниеУслуги.Ссылка КАК Документ
+	ОказаниеУслуг.Ссылка КАК Документ,
+	ОказаниеУслуг.Склад,
+	ОказаниеУслуг.Клиент,
+	ОказаниеУслуг.Мастер
 ИЗ
-	Документ.ОказаниеУслуги КАК ОказаниеУслуги
+	Документ.ОказаниеУслуг КАК ОказаниеУслуг
 
 УПОРЯДОЧИТЬ ПО
-	ОказаниеУслуги.Номер</query>
+	ОказаниеУслуг.Номер</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>

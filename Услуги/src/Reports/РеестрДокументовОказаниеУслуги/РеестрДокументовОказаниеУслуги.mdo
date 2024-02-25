@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ecac797-05a8-4828-b135-a5205fa95df8">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="539761e0-c41a-407c-9eea-06e5f5519523">
   <producedTypes>
-    <objectType typeId="861612a3-bc2c-432f-be39-32c01b97ebf3" valueTypeId="f5097e33-133c-4a6c-8794-af9c85aa33aa"/>
-    <managerType typeId="05d5520d-9ba3-4130-b872-0b28bfd837d0" valueTypeId="e4e3af34-d52a-462d-9921-e1b3c8210ed7"/>
+    <objectType typeId="ae43ae80-b21b-4086-b06d-f2fdf3d1a9f2" valueTypeId="1a3c4776-79a6-42c8-af71-281dbba4f6b2"/>
+    <managerType typeId="3c5e77ab-3e62-43b4-b15e-3d3b174187f3" valueTypeId="bf1a1b2c-058e-4af9-895f-0761a15e6bc2"/>
   </producedTypes>
   <name>РеестрДокументовОказаниеУслуги</name>
   <synonym>
@@ -15,7 +15,7 @@
     <key>ru</key>
     <value>Список оказанных услуг</value>
   </extendedPresentation>
-  <templates uuid="f60ad7fa-51b7-4b90-b1fd-81f4833779a4">
+  <templates uuid="913d58dd-138f-494c-9eef-1690b71a1d52">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
