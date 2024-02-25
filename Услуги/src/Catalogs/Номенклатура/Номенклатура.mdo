@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7129b9f-d4c3-46d2-9ec6-318191b58391">
+  <producedTypes>
+    <objectType typeId="ce105c5c-d4d4-49b2-bb91-58ba4e28dc19" valueTypeId="bf20270c-cea1-491c-bffd-36a1e7f24451"/>
+    <refType typeId="b2558c31-5603-4fbc-b440-f4bc0b5d548a" valueTypeId="aa0bbd8a-86a2-4460-a73d-ab26ada82d6c"/>
+    <selectionType typeId="29e59e02-a206-43d8-becc-ffdd098042bc" valueTypeId="3450f73d-797a-4378-8d29-7aacd6daaf9e"/>
+    <listType typeId="158ec18b-c37b-437a-8c79-a5fe37ceed69" valueTypeId="cbae37f1-c784-48e0-83fe-fa31c09b4aed"/>
+    <managerType typeId="63de02a2-4c8d-427e-8f06-4aa36c2c68e7" valueTypeId="f9e99e07-8aef-4e94-acd5-b831af2b3552"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа материалов</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Материал</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
