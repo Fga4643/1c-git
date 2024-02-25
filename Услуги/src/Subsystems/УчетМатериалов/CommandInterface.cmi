@@ -17,18 +17,60 @@
       <command>Document.ПриходнаяНакладная.StandardCommand.Create</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Администратор</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Мастер</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Мастер</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Мастер</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.Цены.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.Администратор</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
       </visible>
     </visibilityFragments>
   </commandsVisibility>
@@ -36,12 +78,24 @@
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

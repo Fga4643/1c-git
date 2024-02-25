@@ -5,7 +5,38 @@
       <command>Catalog.Сотрудники.StandardCommand.Create</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Администратор</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.Перерасчет.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.НачисленияСотрудникам.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.НачисленияСотрудникам.StandardCommand.Open</commands>
+      <commands>Report.ДиаграммаНачислений.StandardCommand.Open</commands>
+      <commands>Report.ВыручкаМастеров.StandardCommand.Open</commands>
+      <commands>Report.Перерасчет.StandardCommand.Open</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.НачисленияСотрудникам.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

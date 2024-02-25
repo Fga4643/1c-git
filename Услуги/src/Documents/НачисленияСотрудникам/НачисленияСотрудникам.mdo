@@ -26,10 +26,20 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultListForm>Document.НачисленияСотрудникам.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>CalculationRegister.Начисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="439f6d83-2d25-4b46-a705-f4839be27dc3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="416b6d67-101a-4a9c-b677-fb54ea53abb4">
     <producedTypes>
       <objectType typeId="a4dd8990-917a-4a4f-95ed-c6cff9996f63" valueTypeId="c8e66802-ce8b-4d7d-9f5b-a775f8dbcab8"/>

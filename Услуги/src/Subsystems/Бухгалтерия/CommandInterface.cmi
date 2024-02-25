@@ -5,24 +5,51 @@
       <command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Бухгалтер</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Бухгалтер</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <role>Role.Бухгалтер</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccountingRegister.Управленческий.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
       </visible>
     </visibilityFragments>
   </commandsVisibility>
@@ -32,16 +59,28 @@
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
       <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
+      <commands>Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
+      <commands>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
       <commands>AccountingRegister.Управленческий.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
+      <commands>Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
