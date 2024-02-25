@@ -12,4 +12,5 @@
   </picture>
   <content>Catalog.Номенклатура</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>Report.Материалы</content>
 </mdclass:Subsystem>
