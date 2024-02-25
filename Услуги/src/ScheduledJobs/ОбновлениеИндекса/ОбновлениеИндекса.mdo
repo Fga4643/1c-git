@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2877c89f-e4c6-4704-83f1-bb9a72aa4334">
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38397adc-5cba-4416-8b25-3049133f3d73">
   <name>ОбновлениеИндекса</name>
   <synonym>
     <key>ru</key>

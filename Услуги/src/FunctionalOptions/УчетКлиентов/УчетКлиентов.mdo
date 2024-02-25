@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc92fb24-a361-4162-9203-71907ba5dcf8">
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="065af628-2b36-4f61-9bfe-7c48457ff4c8">
   <name>УчетКлиентов</name>
   <synonym>
     <key>ru</key>
@@ -7,7 +7,7 @@
   </synonym>
   <location>Constant.УчетКлиентов</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>Document.ОказаниеУслуг.Attribute.Клиент</content>
   <content>Catalog.Клиенты</content>
   <content>AccumulationRegister.Продажи.Dimension.Клиент</content>
+  <content>Document.ОказаниеУслуги.Attribute.Клиент</content>
 </mdclass:FunctionalOption>

@@ -23,7 +23,7 @@
     <value>Приходные накладные</value>
   </listPresentation>
   <numberType>String</numberType>
-  <numberLength>9</numberLength>
+  <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
@@ -60,7 +60,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d24a4867-dbdb-4f40-bc92-34e4657acde9">
+  <forms uuid="dea4d2e7-4a1b-4c80-aebd-50980d23938f">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

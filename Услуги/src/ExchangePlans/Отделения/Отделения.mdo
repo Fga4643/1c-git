@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a32965d-c658-4184-8df4-e55b34745c52" thisNode="f69198f1-cd31-415a-8946-01ccd39e763a">
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d353cdc8-df00-45cc-9557-0e81b6c54f51" thisNode="45226c0b-4fff-4864-bdfa-97a5f8e1b814">
   <producedTypes>
-    <objectType typeId="74e75392-6e11-40c5-ab33-abf52477718d" valueTypeId="ad781155-25ad-48c2-bd15-0c851ddebe4e"/>
-    <refType typeId="6c03bc81-2c91-48d4-936d-2f7506e28ab2" valueTypeId="e04a25f4-87ce-48e9-9a31-4690abd74ad4"/>
-    <selectionType typeId="be74287e-675e-4466-9aeb-5b97eb494946" valueTypeId="c25856f0-4cf9-43d5-a0a4-5f62866a6668"/>
-    <listType typeId="54404848-0336-4a3a-9b10-4598941cac51" valueTypeId="cc32c8f9-8694-455c-9929-1883575e1ace"/>
-    <managerType typeId="0c152576-3c39-48c5-abd3-82f1bf30edd4" valueTypeId="a53d101d-4213-4229-ae04-ed591b7c838e"/>
+    <objectType typeId="93db52d1-5211-4b76-bb8f-0461c2bf7b53" valueTypeId="241e0bc7-5b2b-4f43-b8dd-df56bbbc4a54"/>
+    <refType typeId="5dd0c27b-bbe7-44c4-b629-66e143fe77a0" valueTypeId="3adc07fa-818c-476c-a2b9-a72c4d4f38db"/>
+    <selectionType typeId="d898bed7-2ef4-4b4e-a58d-12c6c2ebd5c2" valueTypeId="db0c6878-6857-4b3f-979c-dd5ff3b6105b"/>
+    <listType typeId="8f0b876f-9386-4943-94f2-85520d35118c" valueTypeId="f42d7bbb-cac1-476d-b1b2-a4921b9fc320"/>
+    <managerType typeId="76886264-de9b-4a96-b372-0b09c067d50d" valueTypeId="8bdf6a33-ffa0-4b7a-a541-edcc10ac1a25"/>
   </producedTypes>
   <name>Отделения</name>
   <synonym>
@@ -27,15 +27,11 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <content>
-    <mdObject>Catalog.ВариантыНоменклатуры</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>Catalog.ДополнительныеСвойстваНоменклатуры</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>Catalog.Клиенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Сотрудники</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -47,11 +43,11 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Сотрудники</mdObject>
+    <mdObject>Catalog.ВариантыНоменклатуры</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Document.ОказаниеУслуг</mdObject>
+    <mdObject>Catalog.ДополнительныеСвойстваНоменклатуры</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -59,11 +55,11 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>ChartOfCharacteristicTypes.СвойстваНоменклатуры</mdObject>
+    <mdObject>Document.ОказаниеУслуги</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.ЗначенияСвойствНоменклатуры</mdObject>
+    <mdObject>ChartOfCharacteristicTypes.СвойстваНоменклатуры</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -71,15 +67,19 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗначенияСвойствНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>AccumulationRegister.ОстаткиМатериалов</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>AccumulationRegister.Продажи</mdObject>
+    <mdObject>AccumulationRegister.СтоимостьМатериалов</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>AccumulationRegister.СтоимостьМатериалов</mdObject>
+    <mdObject>AccumulationRegister.Продажи</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
@@ -88,7 +88,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultListForm>ExchangePlan.Отделения.Form.ФормаСписка</defaultListForm>
   <distributedInfoBase>true</distributedInfoBase>
-  <forms uuid="f5ce525b-419c-4b5c-b8fc-2fe1a841905c">
+  <forms uuid="46ef0c78-ba43-431a-b9e6-cdf89bfb6fc3">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

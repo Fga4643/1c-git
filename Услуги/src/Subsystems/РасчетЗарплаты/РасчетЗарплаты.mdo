@@ -10,11 +10,12 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Запралата</picture>
   </picture>
-  <content>Catalog.Сотрудники</content>
   <content>Report.ВыручкаМастеров</content>
-  <content>Report.Перерасчет</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
   <content>InformationRegister.ГрафикиРаботы</content>
+  <content>CalculationRegister.Начисления</content>
+  <content>Document.НачисленияСотрудникам</content>
+  <content>Report.Перерасчет</content>
   <content>Report.НачисленияСотрудникам</content>
   <content>Report.ДиаграммаНачислений</content>
-  <content>Document.НачисленияСотрудникам</content>
 </mdclass:Subsystem>

@@ -12,16 +12,17 @@
   </picture>
   <content>DataProcessor.РаботаСЗапросами</content>
   <content>Catalog.ВариантыНоменклатуры</content>
-  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ВидыГрафиковРаботы</content>
+  <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
   <content>Catalog.Клиенты</content>
+  <content>Catalog.Номенклатура</content>
   <content>Catalog.Склады</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Субконто</content>
-  <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
-  <content>Catalog.ВидыГрафиковРаботы</content>
   <content>InformationRegister.ЗначенияСвойствНоменклатуры</content>
+  <content>CommonForm.ОбщиеНастройки</content>
   <content>ExchangePlan.Филиалы</content>
   <content>DataProcessor.ОбменДанными</content>
-  <content>CommonForm.ОбщиеНастройки</content>
   <content>ExchangePlan.Отделения</content>
+  <content>DataProcessor.ОбменСОтделениями</content>
 </mdclass:Subsystem>

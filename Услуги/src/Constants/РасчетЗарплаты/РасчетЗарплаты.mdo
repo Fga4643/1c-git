@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fc04dee-ea2f-409e-981f-6989d113c7af">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c99d4a8a-8ac5-40ba-a8fc-2d2f7747b877">
   <producedTypes>
-    <managerType typeId="1cb4dd27-1205-4ec9-a764-4aef08e5fa04" valueTypeId="7ac3c5c6-53f4-44df-92fc-37729cf03841"/>
-    <valueManagerType typeId="c16d80e8-d35c-43eb-88d3-c6e506e04c15" valueTypeId="a92cb7de-0d27-41c4-8eb7-ab07e354a912"/>
-    <valueKeyType typeId="875c3e5b-342d-4555-8284-d8630d3ccba3" valueTypeId="fa1b4ff9-547d-4ee9-8934-9319f790513b"/>
+    <managerType typeId="a9adf807-0124-4556-bbde-06afe2e1955d" valueTypeId="87453fd0-f2c7-430f-9d06-7e1300308ee4"/>
+    <valueManagerType typeId="d6b2e272-b75b-43b6-b7f2-7be162a7ffb7" valueTypeId="769913b5-011d-45e7-8578-bd06e7365b93"/>
+    <valueKeyType typeId="1a45444c-0753-4170-8244-26cbe92e028e" valueTypeId="5c2d79d9-3e38-4e68-85e7-83cd7de8756b"/>
   </producedTypes>
   <name>РасчетЗарплаты</name>
   <synonym>

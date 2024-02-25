@@ -12,7 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ВыручкаМастеров.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ВыручкаМастеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <forms uuid="14dbbb42-3a9f-40fd-8886-b16a3c059f9b">
+  <forms uuid="953eab43-c6b8-44f0-8cb5-aeeff5363c53">
     <name>ФормаОтчета</name>
     <synonym>
       <key>ru</key>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09d1a45e-1026-44f5-bd3e-9fc963779f85">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="303594f3-2c68-4ef1-8218-ce8c69539284">
   <producedTypes>
-    <objectType typeId="7bfa6b41-23b6-4a24-88bb-f7dd3188319a" valueTypeId="1b9d8605-af43-467e-991a-9a1a5a9b61f3"/>
-    <managerType typeId="eb769866-9f17-46d2-bd85-81be74b0e245" valueTypeId="ec1464dd-83e9-4b5d-93ee-eefcc0f3aa53"/>
+    <objectType typeId="35f93a2e-a618-401d-ac0c-c28c54a59716" valueTypeId="a37304a2-9d19-4fb7-bbcc-d5c12e3efe68"/>
+    <managerType typeId="5281daae-90a1-4f9d-9ae8-185f91d3846c" valueTypeId="668598ad-7be6-4d75-9451-37eb898e135a"/>
   </producedTypes>
   <name>ОбменДанными</name>
   <synonym>
@@ -10,12 +10,12 @@
     <value>Обмен данными</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.ОбменДанными.Form.ОсновнаяФорма</defaultForm>
-  <forms uuid="2789f374-de10-42de-a19e-79ed071c22f2">
-    <name>ОсновнаяФорма</name>
+  <defaultForm>DataProcessor.ОбменДанными.Form.Форма</defaultForm>
+  <forms uuid="a2b8e4f2-6bd7-4eac-8a49-3dc327fcbe75">
+    <name>Форма</name>
     <synonym>
       <key>ru</key>
-      <value>Основная форма</value>
+      <value>Форма</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

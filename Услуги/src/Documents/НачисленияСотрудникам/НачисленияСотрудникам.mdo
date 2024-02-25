@@ -31,7 +31,7 @@
   <registerRecords>CalculationRegister.Начисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <forms uuid="439f6d83-2d25-4b46-a705-f4839be27dc3">
+  <forms uuid="4f5e6358-4931-4001-aa57-396ef21e09b0">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

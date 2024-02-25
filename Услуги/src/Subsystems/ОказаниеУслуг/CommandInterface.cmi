@@ -2,26 +2,14 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Catalog.Клиенты.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.Номенклатура.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Document.ОказаниеУслуги.StandardCommand.Create</command>
       <visible>
         <common>true</common>
         <for>
-          <role>Role.Администратор</role>
+          <role>Role.Директор</role>
         </for>
         <for>
-          <role>Role.Директор</role>
+          <role>Role.Администратор</role>
         </for>
       </visible>
     </visibilityFragments>
@@ -65,10 +53,10 @@
       <command>InformationRegister.Цены.StandardCommand.Create</command>
       <visible>
         <for>
-          <role>Role.Администратор</role>
+          <role>Role.Директор</role>
         </for>
         <for>
-          <role>Role.Директор</role>
+          <role>Role.Администратор</role>
         </for>
       </visible>
     </visibilityFragments>

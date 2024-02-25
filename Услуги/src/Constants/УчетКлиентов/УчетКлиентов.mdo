@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f387585c-2500-4601-a887-11039b314379">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efb742b3-74fe-4f1a-b5bc-64b0f6024ec8">
   <producedTypes>
-    <managerType typeId="540fbfa8-edad-4149-9a60-4be9cda02eab" valueTypeId="d4fed2e1-9e48-4504-97e0-3a9a42bf4402"/>
-    <valueManagerType typeId="f38dc201-c75a-4cbe-8532-91bdd217d16c" valueTypeId="8b5b54ec-c7aa-4c73-bf6e-1eba89a37dfd"/>
-    <valueKeyType typeId="c8374fcc-16fc-4876-8305-a71f1eae2d0c" valueTypeId="2b5d3f4b-4607-4929-8817-907261e43426"/>
+    <managerType typeId="3b9e0c6e-b2e5-49c1-abde-a5b448441700" valueTypeId="31113c5e-bcdb-43f6-81f6-78ac32c56268"/>
+    <valueManagerType typeId="6d104a10-6b38-4baf-a101-161dd13155de" valueTypeId="5c6c09de-e166-422a-aaef-1698c5bddcdb"/>
+    <valueKeyType typeId="4aaf9cf8-459e-49b2-8ec5-f62a95e40542" valueTypeId="809680cd-c195-4d1d-a565-4b2742a46bef"/>
   </producedTypes>
   <name>УчетКлиентов</name>
   <synonym>

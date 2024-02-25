@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a03cefd4-4b9e-4e4c-a0ad-ef355f5cc442">
+  <name>БухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский учет</value>
+  </synonym>
+  <location>Constant.БухгалтерскийУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Субконто</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>Document.ВводНачальныхОстатковНоменклатуры</content>
+  <content>ChartOfAccounts.Основной</content>
+  <content>Subsystem.Бухгалтерия</content>
+</mdclass:FunctionalOption>

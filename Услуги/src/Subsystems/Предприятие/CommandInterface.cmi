@@ -2,25 +2,16 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Catalog.ДополнительныеСвойстваНоменклатуры.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-        <for>
-          <role>Role.Директор</role>
-        </for>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.ВидыГрафиковРаботы.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-        <for>
-          <role>Role.Директор</role>
-        </for>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.ВариантыНоменклатуры.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ДополнительныеСвойстваНоменклатуры.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
         <for>
@@ -38,25 +29,28 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.ВидыГрафиковРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>ExchangePlan.Филиалы.StandardCommand.OpenList</command>
       <visible>
         <for>
           <value>true</value>
           <role>Role.Администратор</role>
         </for>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.Склады.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
         <for>
           <role>Role.Расчетчик</role>
         </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>ExchangePlan.Филиалы.StandardCommand.Create</command>
+      <command>CommonForm.ОбщиеНастройки.StandardCommand.Open</command>
       <visible>
         <for>
           <value>true</value>
@@ -74,7 +68,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>CommonForm.ОбщиеНастройки.StandardCommand.Open</command>
+      <command>ExchangePlan.Филиалы.StandardCommand.Create</command>
       <visible>
         <for>
           <value>true</value>
@@ -100,6 +94,15 @@
         </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбменСОтделениями.StandardCommand.Open</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -115,19 +118,19 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
+      <commands>ExchangePlan.Филиалы.StandardCommand.OpenList</commands>
+      <commands>ExchangePlan.Отделения.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Клиенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Склады.StandardCommand.OpenList</commands>
-      <commands>ExchangePlan.Филиалы.StandardCommand.OpenList</commands>
-      <commands>ExchangePlan.Отделения.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.ВариантыНоменклатуры.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВидыГрафиковРаботы.StandardCommand.OpenList</commands>
       <commands>Catalog.ДополнительныеСвойстваНоменклатуры.StandardCommand.OpenList</commands>
       <commands>Catalog.Субконто.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВидыГрафиковРаботы.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЗначенияСвойствНоменклатуры.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>

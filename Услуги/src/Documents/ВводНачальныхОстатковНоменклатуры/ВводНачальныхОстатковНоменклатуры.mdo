@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1fe12e3-bb11-408e-9095-ce03aabb4c50">
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2209c14d-135f-4580-93c4-0fc57e83a88a">
   <producedTypes>
-    <objectType typeId="f0b79e5b-6a27-4883-bc09-dac918184140" valueTypeId="400fb30d-9526-4854-b876-85d32834e615"/>
-    <refType typeId="2aa8c1f4-abe9-46c4-b86e-4e905bd770e9" valueTypeId="c17f050d-fe6d-4915-8f54-b7e0fece146a"/>
-    <selectionType typeId="4f370c0d-91ff-4cda-a950-1cc6906fbca8" valueTypeId="2b9489df-728a-46f6-ade3-cbaa1a89a502"/>
-    <listType typeId="b9f8c7c9-4e7e-4bc0-88cb-f920519028ca" valueTypeId="09e5203a-50b5-4736-b480-1b2c9d202e0a"/>
-    <managerType typeId="da65f353-5b6e-43af-b435-c96498a31e08" valueTypeId="3cb11175-9d03-4037-a73f-ccd147092293"/>
+    <objectType typeId="f384b517-d466-46fe-917d-b298ad4b6fe4" valueTypeId="6124aa91-77c7-45a0-a653-49b7faf20ea9"/>
+    <refType typeId="50d8bfa6-9ae2-4c1d-90eb-d3bb63ff4563" valueTypeId="243ae42e-0fe7-4b85-844b-906f5128e907"/>
+    <selectionType typeId="925f0212-0b70-40f2-b885-4e84c3ba3e0c" valueTypeId="8ea23004-4252-4398-87e1-a80d1bf127dc"/>
+    <listType typeId="6b60252c-3f92-4149-b8f3-0bf03b90df8d" valueTypeId="ecc91f54-571e-4713-bb15-630c377a9831"/>
+    <managerType typeId="6c53c4e9-b0d8-433e-8e4c-b4d235c0b65b" valueTypeId="5d9a08fa-2162-40fe-b50a-c02c81e62d9e"/>
   </producedTypes>
   <name>ВводНачальныхОстатковНоменклатуры</name>
   <synonym>
@@ -28,7 +28,7 @@
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <forms uuid="3f9ebb6c-59f2-48ce-8daf-a5cf005f6bbb">
+  <forms uuid="869d3e6e-5012-4c54-8618-91629b1496c7">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec4ea275-7e64-4963-8255-e0e3a2d4c2c5">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4dee177-cce2-428a-bbb6-78f49a7d2b28">
   <producedTypes>
-    <managerType typeId="3b1c4d76-1488-47ab-bbe6-f6415535d71c" valueTypeId="29d49139-4103-4129-9846-5d93e2d03980"/>
-    <valueManagerType typeId="88dff839-d23e-48b2-866f-1d67cc9e8c6c" valueTypeId="f6e0bf53-4fa6-48da-b371-d386be28a0d2"/>
-    <valueKeyType typeId="cfd40c69-0c76-4df2-ba31-c0551deefa34" valueTypeId="b2dc16b3-8604-489f-9d87-984becbef4b8"/>
+    <managerType typeId="589b6ef9-ed2e-499a-a66b-e8ea580c14bb" valueTypeId="5a94ff88-668d-47a6-89f9-38c14f70d0b1"/>
+    <valueManagerType typeId="5f5c7a06-7603-48d4-9cc9-09bf40471775" valueTypeId="3c9b0ef7-4afd-41f5-acc6-70e319df6ace"/>
+    <valueKeyType typeId="852c5dd5-e651-4479-b0f1-3506864e444c" valueTypeId="377e1f1f-1acc-4b49-b41b-57656e19d2a3"/>
   </producedTypes>
   <name>БухгалтерскийУчет</name>
   <synonym>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1929d56-e451-4865-bf76-7161980405b2">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a304e54-e1fb-4e72-a4c1-9cc864f48a4e">
   <producedTypes>
-    <managerType typeId="e5238446-e879-4359-8284-4e95cf951fa1" valueTypeId="52087e30-08cb-4519-b4df-3b3269bf8973"/>
-    <valueManagerType typeId="3fb3e8d1-10e3-4622-bafb-f0b8320bc9a7" valueTypeId="9019181d-c349-4135-b16b-6e6c5c43466b"/>
-    <valueKeyType typeId="112e54fb-cae4-490a-b026-6952b512b2a6" valueTypeId="7118243b-e8b9-4990-8ff2-5cdce87bbf07"/>
+    <managerType typeId="f2e1d293-0c9c-40a6-a243-91804a20d13d" valueTypeId="dc309d6c-d00a-4340-9591-5c1f617a3f4b"/>
+    <valueManagerType typeId="11a2a005-cc0d-433f-b0ac-e1fb6fb3e3eb" valueTypeId="0d9bd6dd-c433-4edf-a8c2-442c48eb66fc"/>
+    <valueKeyType typeId="59450aaf-28b3-499a-b895-06b39d9f9045" valueTypeId="1468e702-1e89-49a5-bdd8-e6d3e9e29e23"/>
   </producedTypes>
   <name>ПрефиксНумерации</name>
   <synonym>

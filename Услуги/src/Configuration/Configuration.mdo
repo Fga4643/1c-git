@@ -54,7 +54,7 @@
   <roles>Role.Директор</roles>
   <roles>Role.Мастер</roles>
   <roles>Role.Расчетчик</roles>
-  <filterCriteria>FilterCriterion.ОказаниеУслуг</filterCriteria>
+  <filterCriteria>FilterCriterion.ОказаниеУслуги</filterCriteria>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
   <commonModules>CommonModule.Обмен</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
@@ -65,7 +65,7 @@
   <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
-  <functionalOptions>FunctionalOption.БухгалерскийУчет</functionalOptions>
+  <functionalOptions>FunctionalOption.БухгалтерскийУчет</functionalOptions>
   <functionalOptions>FunctionalOption.РасчетЗарплаты</functionalOptions>
   <functionalOptions>FunctionalOption.УчетКлиентов</functionalOptions>
   <constants>Constant.БухгалтерскийУчет</constants>

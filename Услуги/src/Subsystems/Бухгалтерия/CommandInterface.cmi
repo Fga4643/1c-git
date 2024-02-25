@@ -82,5 +82,21 @@
       <commands>ChartOfAccounts.Основной.StandardCommand.OpenList</commands>
       <commands>Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.OpenList</commands>
     </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.ОказаниеУслуги.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Цены.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.ОборотноСальдоваяВедомость.StandardCommand.Open</commands>
+      <commands>Report.НачисленияСотрудникам.StandardCommand.Open</commands>
+      <commands>Report.Материалы.StandardCommand.Open</commands>
+      <commands>Report.РейтингУслуг.StandardCommand.Open</commands>
+      <commands>Report.ПереченьУслуг.StandardCommand.Open</commands>
+      <commands>Report.РейтингКлиентов.StandardCommand.Open</commands>
+      <commands>Report.ОстаткиМатериаловПоСвойствам.StandardCommand.Open</commands>
+    </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

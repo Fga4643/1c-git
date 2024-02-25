@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3767e3bf-b6ad-42ee-a8d2-1a54d439f753" thisNode="5b3b4b73-5343-4f28-a447-b60ce0d08d3d">
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6c9fc08-7b3a-453b-87e8-f9cdef19428f" thisNode="a2320f57-1c52-43b3-88cf-89e5c9709720">
   <producedTypes>
-    <objectType typeId="52507c74-b686-476f-a550-067a79aaa432" valueTypeId="aff83227-53ee-4451-8ee6-cfcf93f7d8e4"/>
-    <refType typeId="01d77a57-c61f-416d-9bd7-f3ae0df9ac51" valueTypeId="c7d40c11-1f2a-4225-b2df-633c981b2f3a"/>
-    <selectionType typeId="866a355f-d4fc-46d7-9cb7-af99ad2e8873" valueTypeId="a219c1a3-51d2-4cc2-ab4e-131548cf150b"/>
-    <listType typeId="92fed6bd-62db-44dd-b466-d88d3e89ea61" valueTypeId="67e53a87-62c3-4201-840a-d2ecd19d66b0"/>
-    <managerType typeId="0c428ce7-6fef-4a0d-a2ab-bd3f01aacad0" valueTypeId="4bf284fc-7320-4a60-97f7-8d32e4545a1c"/>
+    <objectType typeId="fc3d0241-760b-418f-b873-15147011dca6" valueTypeId="1e052b82-b5be-49bf-a678-d1268d1f7b94"/>
+    <refType typeId="98126f22-de76-4d91-8fe1-442525edfca1" valueTypeId="2f4a33bb-ac86-4d6f-961e-6ef2ccad528b"/>
+    <selectionType typeId="6a74fb19-a03c-4d79-b2e3-496eb4e971e1" valueTypeId="42d54a05-f296-440a-b758-d172a343e6e9"/>
+    <listType typeId="0cb96724-c3f7-4876-9673-9d179de55271" valueTypeId="6fa255b4-a6c6-437a-a9c6-3ad42c28d4c0"/>
+    <managerType typeId="b6d8b331-77cf-48c2-8876-065cd7d127a3" valueTypeId="a61f2932-cd03-433e-ad9c-0e27291ed798"/>
   </producedTypes>
   <name>Филиалы</name>
   <synonym>
@@ -17,11 +17,6 @@
   <inputByString>ExchangePlan.Филиалы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
@@ -56,27 +51,15 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Document.ОказаниеУслуги</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>Document.ПриходнаяНакладная</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Document.ОказаниеУслуги</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>ChartOfCharacteristicTypes.СвойстваНоменклатуры</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>AccumulationRegister.СтоимостьМатериалов</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>AccumulationRegister.Продажи</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>AccumulationRegister.ОстаткиМатериалов</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -87,12 +70,24 @@
     <mdObject>InformationRegister.ЗначенияСвойствНоменклатуры</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
+  <content>
+    <mdObject>AccumulationRegister.ОстаткиМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.Продажи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.СтоимостьМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>ExchangePlan.Филиалы.Form.ФормаУзла</defaultObjectForm>
   <defaultListForm>ExchangePlan.Филиалы.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="3d1ea8f6-7fba-4c96-b325-c768870435f1">
+  <attributes uuid="0b7b26b7-c695-42fc-ad2d-90a778ed6bd8">
     <name>Главный</name>
     <synonym>
       <key>ru</key>
@@ -107,7 +102,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="7bf86718-94c9-481e-80cb-f0e0baf5d281">
+  <forms uuid="7ee7517f-1d66-47a4-a8d0-aa20d62efa99">
     <name>ФормаУзла</name>
     <synonym>
       <key>ru</key>
@@ -116,7 +111,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="4720f387-0fb9-43c9-85f8-67e2bc59428d">
+  <forms uuid="cc0799e5-ba55-4c8f-a342-98836b8d8370">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

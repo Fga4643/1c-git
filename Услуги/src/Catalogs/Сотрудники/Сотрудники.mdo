@@ -39,7 +39,7 @@
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>11</codeLength>
   <descriptionLength>50</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -48,6 +48,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Сотрудники.Form.ФормаСписка</defaultListForm>
   <tabularSections uuid="27425b98-bcb4-4a57-a744-c280a2c0bc44">
     <producedTypes>
       <objectType typeId="0d2f201d-00da-47bb-a519-6e2dfd06b8a5" valueTypeId="3ec060c0-2150-4741-83bf-af8cd9c12b3f"/>
@@ -127,4 +128,22 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="add63749-2369-451b-95a0-88d239864576">
+    <name>ФормаВыбораОказаниеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора оказание услуги</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb6ba785-70f5-47d5-b6cd-dc9171c5f291">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

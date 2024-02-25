@@ -12,7 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ОборотноСальдоваяВедомость.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОборотноСальдоваяВедомость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <forms uuid="d3f1625d-daa9-411e-a4c3-0cb8f76d712b">
+  <forms uuid="3219cd5e-3d41-44ff-ae43-abf5e2f2761f">
     <name>ФормаОтчета</name>
     <synonym>
       <key>ru</key>
