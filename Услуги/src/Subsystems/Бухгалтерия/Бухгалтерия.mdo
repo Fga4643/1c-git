@@ -29,4 +29,5 @@
   <content>Report.ОборотноСальдоваяВедомость</content>
   <content>Report.НачисленияСотрудникам</content>
   <content>Document.ВводНачальныхОстатковНоменклатуры</content>
+  <content>FunctionalOption.БухгалерскийУчет</content>
 </mdclass:Subsystem>
