@@ -112,18 +112,15 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>КоличествоКонечныйОстаток</dcsset:field>
 				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>КоличествоНачальныйОстаток</dcsset:field>
-				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcsset:userSettingID>4f089437-1cf2-4a5b-bc9a-8cd7ddd387f3</dcsset:userSettingID>
+					<dcsset:userSettingID>a948e40d-9a51-49a9-a22b-491cdbabc285</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcsset:userSettingID>fcdd6cf8-21be-4039-b49e-401c43a24c3a</dcsset:userSettingID>
+					<dcsset:userSettingID>3d950474-e48e-48d7-a200-0d757776485e</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

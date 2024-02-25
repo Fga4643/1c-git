@@ -51,7 +51,7 @@
 	</dataSet>
 	<calculatedField>
 		<dataPath>Доход</dataPath>
-		<expression>Выручка-Стоимость</expression>
+		<expression>Выручка - Стоимость</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -115,8 +115,17 @@
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:ChartType">Pie</dcscor:value>
-					<dcsset:userSettingID>0bf2a9b7-0951-419a-afc1-0e2e422289b6</dcsset:userSettingID>
+					<dcscor:value xsi:type="v8ui:ChartType">Pie3D</dcscor:value>
+					<dcsset:userSettingID>6c26fd5a-b740-47ff-8919-882096ca1bd8</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рейтинг клиентов</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemChart">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7129b9f-d4c3-46d2-9ec6-318191b58391">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac64c228-3f1f-4d39-b652-18c5c4ce820f">
   <producedTypes>
-    <objectType typeId="ce105c5c-d4d4-49b2-bb91-58ba4e28dc19" valueTypeId="bf20270c-cea1-491c-bffd-36a1e7f24451"/>
-    <refType typeId="b2558c31-5603-4fbc-b440-f4bc0b5d548a" valueTypeId="aa0bbd8a-86a2-4460-a73d-ab26ada82d6c"/>
-    <selectionType typeId="29e59e02-a206-43d8-becc-ffdd098042bc" valueTypeId="3450f73d-797a-4378-8d29-7aacd6daaf9e"/>
-    <listType typeId="158ec18b-c37b-437a-8c79-a5fe37ceed69" valueTypeId="cbae37f1-c784-48e0-83fe-fa31c09b4aed"/>
-    <managerType typeId="63de02a2-4c8d-427e-8f06-4aa36c2c68e7" valueTypeId="f9e99e07-8aef-4e94-acd5-b831af2b3552"/>
+    <objectType typeId="17efa7d3-0029-4c5b-acac-fc88ce74bb4f" valueTypeId="e5476813-40f7-4cd0-b956-1e1da8bfe13e"/>
+    <refType typeId="6d71808a-a2c6-4122-8641-67e5216033c9" valueTypeId="f2763da5-734f-45c6-b277-6e75f4a0cdd6"/>
+    <selectionType typeId="379e4b3c-c604-42fb-869e-f6c50ec53d35" valueTypeId="da902b3e-5f3c-4258-8686-7d29ef7aab54"/>
+    <listType typeId="370a1d59-db09-4480-a109-1a6c79da8268" valueTypeId="6abd6d07-2808-4c13-b403-3deefb303832"/>
+    <managerType typeId="98809611-2f5c-4c78-b6ed-73e21db7a4a1" valueTypeId="5c0b32b0-04ef-435a-8790-5d7020120771"/>
   </producedTypes>
   <name>Номенклатура</name>
   <synonym>
@@ -21,22 +21,17 @@
     <name>Parent</name>
     <synonym>
       <key>ru</key>
-      <value>Группа материалов</value>
+      <value>Группа материалов/услуг</value>
     </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fullTextSearch>Use</fullTextSearch>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Материал</value>
+    <value>Материал/Услуга</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
@@ -54,7 +49,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="bb3d09ab-570c-4499-800f-670c10214461">
+  <attributes uuid="28a2d365-ed4b-4e52-b017-c9cbd592f9ec">
     <name>ВидНоменклатуры</name>
     <synonym>
       <key>ru</key>

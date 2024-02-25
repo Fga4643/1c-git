@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e838b85f-83bf-43de-a970-6f1d72fe9e4c">
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="969de6d1-c98d-425a-93e8-d868628dc0f2">
   <name>Услуги</name>
   <synonym>
     <key>ru</key>
     <value>Бытовые услуги</value>
   </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4f18905b-41e4-4a82-a9c5-cd28c00b1492"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d490af9a-45fd-45ab-8f8e-d4af81e931bb"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ad88b82b-dcb6-4630-b46a-7bcf3d125e8f"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="067afe41-aa3f-4bfe-a346-b1aadeebc62f"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0cbc5c41-c35c-4cd6-9bc4-47007f4a04f4"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b30123f5-9af6-4ba7-9c3f-c8f43a69228c"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="b6b68f73-b026-49f9-be5a-0ce6845d8453"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2d77a139-489f-4b41-bb55-d725549a2382"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="023eed85-25dc-4bbf-93d8-1ca792003681"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ed3cb5ae-daaa-4797-84a2-1877ea8033c9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b924c6ee-0421-446a-bc7f-f9926a324716"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="df32fb83-fd47-4f12-b3a2-46c0f6b0b720"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0e4a04ad-6447-4910-b52d-538157927ad4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="353637e4-64cd-4305-8e71-4f4a288add77"/>
   <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -31,7 +31,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.21</compatibilityMode>
-  <languages uuid="c3455c28-735c-4140-bd25-91a086d36f51">
+  <languages uuid="630f0d7b-2709-408a-8fc9-1f3e4195688b">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -40,30 +40,39 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Бухгалтерия</subsystems>
-  <subsystems>Subsystem.Оказаниеуслуг</subsystems>
-  <subsystems>Subsystem.Основнойраздел</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
   <subsystems>Subsystem.Предприятие</subsystems>
-  <subsystems>Subsystem.Расчетзарплаты</subsystems>
-  <subsystems>Subsystem.Учетматериалов</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.Запралата</commonPictures>
+  <commonPictures>CommonPicture.Материалы</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.Услуги</commonPictures>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.Товары</catalogs>
-  <documents>Document.ОказаниеУслуг</documents>
+  <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ВыручкаМастеров</reports>
   <reports>Report.Материалы</reports>
+  <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
   <reports>Report.ПереченьУслуг</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
+  <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
+  <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

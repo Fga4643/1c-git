@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54b5783-abfb-4a1a-b5ea-1c51c7d9eb00">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebe826d1-4b8d-4b4f-84d7-a3e7a7dca79e">
   <producedTypes>
-    <objectType typeId="fa4e6645-8607-4e29-ab8c-e2b963404114" valueTypeId="7e8b07de-b3e1-4e46-afd7-a5dac78238b9"/>
-    <refType typeId="2db016dd-0b3d-4272-86d1-4e6f133e44e0" valueTypeId="81e1aa60-54ea-4067-9d83-46440affc7e9"/>
-    <selectionType typeId="1c59a419-3ad1-4d02-a19b-216332b544b5" valueTypeId="0e7de927-a4b8-4b67-a367-b6059125a4f9"/>
-    <listType typeId="8bec56ed-7df2-4465-b3b6-cb61d0cb43f0" valueTypeId="1a0c3992-3b2a-4593-8ef8-3bc90c3dd331"/>
-    <managerType typeId="197de555-6182-4210-8cab-7ee7136d6615" valueTypeId="cc5853d1-2c8f-43f8-9379-ebaebf865dd5"/>
+    <objectType typeId="5aa63f3c-7be6-4061-bd0e-fc97927d5102" valueTypeId="1de0b7b0-e348-4eba-9ba5-f35ea387473b"/>
+    <refType typeId="790b97ea-50c1-41c1-97e1-1ebda34ed064" valueTypeId="be494b35-a67f-4c9f-bd54-52e2205f9547"/>
+    <selectionType typeId="965cad3a-b276-4807-b85b-a4c6cd611271" valueTypeId="07f4b28f-b923-4285-a9de-d16c12a414d9"/>
+    <listType typeId="d572bbd8-f6f5-4875-bcbf-6791a48a14d4" valueTypeId="c57eb55e-de26-461e-8bf1-650bd3bcf128"/>
+    <managerType typeId="949c373a-c9fb-4b42-abd9-051419f90f00" valueTypeId="36a46870-f0e4-40ae-a6c1-0ad9530fde7b"/>
   </producedTypes>
   <name>ПриходнаяНакладная</name>
   <synonym>
@@ -29,9 +29,10 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
+  <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="9e3e9f21-5b52-44d6-9f6f-197bfbde5c7f">
+  <attributes uuid="c0ab10ae-6ebe-46d9-8a3a-d9cbc52b1fbe">
     <name>Склад</name>
     <synonym>
       <key>ru</key>
@@ -48,7 +49,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="833c7272-28d1-41a0-b1a2-2a0759903bb1">
+  <forms uuid="de9ff3b1-b6b3-407f-a5e3-bbaf223c82c0">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -57,10 +58,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="653ec4ad-3f18-449e-9ed7-2ece594d7779">
+  <tabularSections uuid="6dabf4d4-5ff8-4977-ab71-bf119d8b8052">
     <producedTypes>
-      <objectType typeId="f4d34cd7-3ff8-4b91-bac2-2b4c757a5c0a" valueTypeId="849e1cec-ded6-4df3-97ac-572ed43c261b"/>
-      <rowType typeId="bfc3f56a-a9a9-4049-8501-ac1143aefe55" valueTypeId="04c4bde4-47ce-48e9-8376-27902ee4810d"/>
+      <objectType typeId="545d78fe-2d3f-4fbc-9cf2-937ff1c4013e" valueTypeId="60d58364-ecb0-4510-95f5-52ec3ce58eb7"/>
+      <rowType typeId="ee18c0f6-c418-4bfd-86ae-db57a4f49d13" valueTypeId="62c66e57-2ffa-4bea-906e-05518bd78018"/>
     </producedTypes>
     <name>Материалы</name>
     <synonym>
@@ -68,7 +69,7 @@
       <value>Материалы</value>
     </synonym>
     <fillChecking>ShowError</fillChecking>
-    <attributes uuid="6e5cc814-9b8b-4aaa-944c-517225b59ad9">
+    <attributes uuid="e3c3e9d0-fc24-4cbb-9bfe-3ba372aa0f5c">
       <name>Материал</name>
       <synonym>
         <key>ru</key>
@@ -79,10 +80,29 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="1b9fbab0-9329-43a8-af62-b61cac0184d8">
+    <attributes uuid="a61082ba-e40a-4b37-b3cc-2b6f0307d040">
+      <name>НаборСвойств</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор свойств</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Материал</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0510544-c183-4c9c-aa83-7423ddacc2e2">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -98,10 +118,11 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="3fd53dab-7c5e-475e-9ac8-9f0fd4a2297f">
+    <attributes uuid="1d177c20-64d8-426e-8c6e-bb2d6e15f613">
       <name>Цена</name>
       <synonym>
         <key>ru</key>
@@ -117,10 +138,11 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e5f6874e-06b6-4e12-b0f7-7315d4a30375">
+    <attributes uuid="c4b66551-96f3-4bd8-a4c0-9311e8f2cdbb">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>
@@ -136,6 +158,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

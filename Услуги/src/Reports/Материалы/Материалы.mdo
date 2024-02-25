@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a79811f-7bac-43cb-832d-0777ad2e5fbe">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ac47729-9866-41a7-8651-4a0fd8c6c76e">
   <producedTypes>
-    <objectType typeId="79df7398-cac0-4812-ac4f-84e7298cacb0" valueTypeId="f8d5985b-7b71-44cd-b408-576a43689c7f"/>
-    <managerType typeId="38174169-ecee-4230-a7d5-9529d8d464f0" valueTypeId="ec5c7683-29ea-47a2-adca-06f719a3eea8"/>
+    <objectType typeId="703d3106-c2dc-43ed-8df4-2064bf70cb9f" valueTypeId="6564345a-502e-4b5b-8223-569238c5a3e1"/>
+    <managerType typeId="d7bb2baa-bcad-4dcc-b640-6e33e56efcb1" valueTypeId="b5ee6dff-abb3-49db-9f8c-b48ac2b5bee0"/>
   </producedTypes>
   <name>Материалы</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.Материалы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="4ecff8ed-e078-4eff-9265-1c47b1c9b709">
+  <templates uuid="b7f872d3-6dac-4a25-9b4b-edf3f4cd32d2">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
