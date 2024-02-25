@@ -45,6 +45,7 @@
   <subsystems>Subsystem.Предприятие</subsystems>
   <subsystems>Subsystem.Расчетзарплаты</subsystems>
   <subsystems>Subsystem.Учетматериалов</subsystems>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
